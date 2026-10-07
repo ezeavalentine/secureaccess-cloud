@@ -1,0 +1,20 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "sts:AssumeRole",
+        "sts:TagSession",
+        "sts:SetSourceIdentity"
+      ],
+      "Resource": "arn:aws:iam::TARGET_ACCOUNT_ID:role/JIT-Access-*",
+      "Condition": {
+        "StringEquals": {
+          "sts:ExternalId": "REPLACE_WITH_RANDOM_EXTERNAL_ID",
+          "aws:RequestTag/ManagedBy": "SecureAccessCloud"
+        }
+      }
+    }
+  ]
+}

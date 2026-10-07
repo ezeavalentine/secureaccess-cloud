@@ -1,0 +1,1529 @@
+{
+  "checks": [
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/auth/me",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/auth/me",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/auth/me",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/auth/me",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/requests",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/sessions/active",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/requests",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/approvals/0a6c3757-175c-4423-98a3-34cb9fd73608/decide",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/sessions/active",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/sessions/fba089d7-37e5-42d8-8e96-fda2d60d8d74/credentials",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/sessions/fba089d7-37e5-42d8-8e96-fda2d60d8d74/revoke",
+      "status": 403
+    },
+    {
+      "method": "POST",
+      "path": "/sessions/fba089d7-37e5-42d8-8e96-fda2d60d8d74/credentials",
+      "status": 404
+    },
+    {
+      "method": "POST",
+      "path": "/sessions/fba089d7-37e5-42d8-8e96-fda2d60d8d74/revoke",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/sessions/fba089d7-37e5-42d8-8e96-fda2d60d8d74/credentials",
+      "status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/requests",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/approvals/a4c8cd26-756f-4d70-8c67-55265fe6c6e8/decide",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/requests",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/requests/b597d278-9050-4d7a-975e-4057d43186fa/cancel",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/requests",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/approvals/01e2e771-266d-4927-8305-cd2fffe5600c/decide",
+      "status": 403
+    },
+    {
+      "method": "POST",
+      "path": "/approvals/01e2e771-266d-4927-8305-cd2fffe5600c/decide",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/requests/01e2e771-266d-4927-8305-cd2fffe5600c",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/approvals/01e2e771-266d-4927-8305-cd2fffe5600c/decide",
+      "status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/approvals/01e2e771-266d-4927-8305-cd2fffe5600c/decide",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/requests",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/requests",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/requests",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/approvals/8367b85d-073d-4f34-8189-6f15e8e5fa77/decide",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/requests/8367b85d-073d-4f34-8189-6f15e8e5fa77",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/users",
+      "status": 403
+    },
+    {
+      "method": "GET",
+      "path": "/audit/logs",
+      "status": 403
+    },
+    {
+      "method": "GET",
+      "path": "/approvals/pending",
+      "status": 403
+    },
+    {
+      "method": "POST",
+      "path": "/requests",
+      "status": 403
+    },
+    {
+      "method": "POST",
+      "path": "/requests/evaluate",
+      "status": 422
+    },
+    {
+      "method": "POST",
+      "path": "/requests",
+      "status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/requests",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/approvals/43f76295-6635-44f8-b9d3-ccacf8ce11fe/decide",
+      "status": 400
+    },
+    {
+      "method": "GET",
+      "path": "/requests/43f76295-6635-44f8-b9d3-ccacf8ce11fe",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/users",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/users/roles/catalog",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/audit/logs",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/sessions/history",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/system/status",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/users",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/users/roles/catalog",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/audit/logs",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/sessions/history",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/system/status",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/users",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/users/roles/catalog",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/audit/logs",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/sessions/history",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/system/status",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/audit/verify-chain",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/audit/export",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/audit/cloudtrail",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/requests",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/sessions/active",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/users/roles/catalog",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/users/accounts/catalog",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/users",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/users",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/requests/evaluate",
+      "status": 403
+    },
+    {
+      "method": "POST",
+      "path": "/users/922d9f97-a499-4c92-ac93-1f33adb70fbd/entitlements",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/requests/evaluate",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/users/922d9f97-a499-4c92-ac93-1f33adb70fbd/entitlements/revoke",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/requests/evaluate",
+      "status": 403
+    },
+    {
+      "method": "PATCH",
+      "path": "/users/922d9f97-a499-4c92-ac93-1f33adb70fbd",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/auth/me",
+      "status": 401
+    },
+    {
+      "method": "PATCH",
+      "path": "/users/922d9f97-a499-4c92-ac93-1f33adb70fbd",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/users/922d9f97-a499-4c92-ac93-1f33adb70fbd",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 401
+    },
+    {
+      "method": "PATCH",
+      "path": "/users/922d9f97-a499-4c92-ac93-1f33adb70fbd",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/users/922d9f97-a499-4c92-ac93-1f33adb70fbd/recover",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/auth/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/system/status",
+      "status": 403
+    },
+    {
+      "method": "POST",
+      "path": "/auth/password",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/mfa/setup",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/mfa/enable",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/logout",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/logout",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/auth/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/audit/verify-chain",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/sessions/history",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/requests/d95f64d2-2522-4a3f-9456-6734f72ae17f",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/sessions/cdea95c8-3053-404b-919c-ed2dcdf67b46/credentials",
+      "status": 400
+    },
+    {
+      "method": "GET",
+      "path": "/requests",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/sessions/active",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/users",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/audit/verify-chain",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/system/status",
+      "status": 200
+    }
+  ],
+  "records": {
+    "Natural 15-minute expiry": {
+      "id": "d95f64d2-2522-4a3f-9456-6734f72ae17f",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "987654321098",
+      "aws_account_name": "Staging-EU",
+      "iam_role": "JIT-Access-ReadOnly",
+      "duration_minutes": 15,
+      "justification": "PROJECT DEMO: Natural 15-minute expiry",
+      "ticket_ref": null,
+      "risk_score": 18,
+      "risk_level": "LOW",
+      "auto_approved": "TRUE",
+      "status": "APPROVED",
+      "rejection_reason": null,
+      "approver_username": null,
+      "required_approvals": 0,
+      "created_at": "2026-10-05T21:39:10.936926Z",
+      "approved_at": "2026-10-05T21:39:10.952725Z",
+      "expires_at": "2026-10-05T22:39:10.935306Z",
+      "approval_count": 0,
+      "my_decision": null
+    },
+    "expiry_session": {
+      "id": "cdea95c8-3053-404b-919c-ed2dcdf67b46",
+      "request_id": "d95f64d2-2522-4a3f-9456-6734f72ae17f",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "987654321098",
+      "iam_role": "JIT-Access-ReadOnly",
+      "issued_at": "2026-10-05T21:39:10.954253Z",
+      "expires_at": "2026-10-05T21:54:10.947803Z",
+      "status": "ACTIVE",
+      "is_demo": true,
+      "revoked_at": null,
+      "revoked_by": null
+    },
+    "Approved deployment and revocation": {
+      "id": "0a6c3757-175c-4423-98a3-34cb9fd73608",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "123456789012",
+      "aws_account_name": "Dev-Sandbox",
+      "iam_role": "JIT-Access-PowerUser",
+      "duration_minutes": 120,
+      "justification": "PROJECT DEMO: Approved deployment and revocation",
+      "ticket_ref": null,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "auto_approved": "FALSE",
+      "status": "PENDING",
+      "rejection_reason": null,
+      "approver_username": null,
+      "required_approvals": 1,
+      "created_at": "2026-10-05T21:39:11.080053Z",
+      "approved_at": null,
+      "expires_at": "2026-10-05T22:39:11.079757Z",
+      "approval_count": 0,
+      "my_decision": null
+    },
+    "revoked_session": {
+      "id": "fba089d7-37e5-42d8-8e96-fda2d60d8d74",
+      "request_id": "0a6c3757-175c-4423-98a3-34cb9fd73608",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "123456789012",
+      "iam_role": "JIT-Access-PowerUser",
+      "issued_at": "2026-10-05T21:39:11.154118Z",
+      "expires_at": "2026-10-05T23:39:11.153022Z",
+      "status": "ACTIVE",
+      "is_demo": true,
+      "revoked_at": null,
+      "revoked_by": null
+    },
+    "Rejected database maintenance": {
+      "id": "a4c8cd26-756f-4d70-8c67-55265fe6c6e8",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "987654321098",
+      "aws_account_name": "Staging-EU",
+      "iam_role": "JIT-Access-DBAdmin",
+      "duration_minutes": 60,
+      "justification": "PROJECT DEMO: Rejected database maintenance",
+      "ticket_ref": "SEC-402",
+      "risk_score": 84,
+      "risk_level": "HIGH",
+      "auto_approved": "FALSE",
+      "status": "PENDING",
+      "rejection_reason": null,
+      "approver_username": null,
+      "required_approvals": 1,
+      "created_at": "2026-10-05T21:39:11.484468Z",
+      "approved_at": null,
+      "expires_at": "2026-10-05T22:39:11.484190Z",
+      "approval_count": 0,
+      "my_decision": null
+    },
+    "Requester cancellation": {
+      "id": "b597d278-9050-4d7a-975e-4057d43186fa",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "987654321098",
+      "aws_account_name": "Staging-EU",
+      "iam_role": "JIT-Access-DBAdmin",
+      "duration_minutes": 60,
+      "justification": "PROJECT DEMO: Requester cancellation",
+      "ticket_ref": "SEC-403",
+      "risk_score": 84,
+      "risk_level": "HIGH",
+      "auto_approved": "FALSE",
+      "status": "PENDING",
+      "rejection_reason": null,
+      "approver_username": null,
+      "required_approvals": 1,
+      "created_at": "2026-10-05T21:39:11.611733Z",
+      "approved_at": null,
+      "expires_at": "2026-10-05T22:39:11.611419Z",
+      "approval_count": 0,
+      "my_decision": null
+    },
+    "Two-person production elevation": {
+      "id": "01e2e771-266d-4927-8305-cd2fffe5600c",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "555444333222",
+      "aws_account_name": "Prod-US-East-1",
+      "iam_role": "JIT-Access-AdministratorAccess",
+      "duration_minutes": 60,
+      "justification": "PROJECT DEMO: Two-person production elevation",
+      "ticket_ref": "SEC-404",
+      "risk_score": 100,
+      "risk_level": "CRITICAL",
+      "auto_approved": "FALSE",
+      "status": "PENDING",
+      "rejection_reason": null,
+      "approver_username": null,
+      "required_approvals": 2,
+      "created_at": "2026-10-05T21:39:11.734770Z",
+      "approved_at": null,
+      "expires_at": "2026-10-05T22:39:11.734438Z",
+      "approval_count": 0,
+      "my_decision": null
+    },
+    "Automatic sandbox read-only access": {
+      "id": "8c9d9e19-6524-491d-8940-bc02d7d6ee99",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "123456789012",
+      "aws_account_name": "Dev-Sandbox",
+      "iam_role": "JIT-Access-ReadOnly",
+      "duration_minutes": 120,
+      "justification": "PROJECT DEMO: Automatic sandbox read-only access",
+      "ticket_ref": null,
+      "risk_score": 15,
+      "risk_level": "LOW",
+      "auto_approved": "TRUE",
+      "status": "APPROVED",
+      "rejection_reason": null,
+      "approver_username": null,
+      "required_approvals": 0,
+      "created_at": "2026-10-05T21:39:12.035919Z",
+      "approved_at": "2026-10-05T21:39:12.039949Z",
+      "expires_at": "2026-10-05T22:39:12.035564Z",
+      "approval_count": 0,
+      "my_decision": null
+    },
+    "Pending staging deployment review": {
+      "id": "cb647296-225d-49ca-9a86-19cdf73536d2",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "987654321098",
+      "aws_account_name": "Staging-EU",
+      "iam_role": "JIT-Access-PowerUser",
+      "duration_minutes": 60,
+      "justification": "PROJECT DEMO: Pending staging deployment review",
+      "ticket_ref": "SEC-405",
+      "risk_score": 48,
+      "risk_level": "MEDIUM",
+      "auto_approved": "FALSE",
+      "status": "PENDING",
+      "rejection_reason": null,
+      "approver_username": null,
+      "required_approvals": 1,
+      "created_at": "2026-10-05T21:39:12.105289Z",
+      "approved_at": null,
+      "expires_at": "2026-10-05T22:39:12.104631Z",
+      "approval_count": 0,
+      "my_decision": null
+    },
+    "One of two approvals recorded": {
+      "id": "8367b85d-073d-4f34-8189-6f15e8e5fa77",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "123456789012",
+      "aws_account_name": "Dev-Sandbox",
+      "iam_role": "JIT-Access-AdministratorAccess",
+      "duration_minutes": 60,
+      "justification": "PROJECT DEMO: One of two approvals recorded",
+      "ticket_ref": "SEC-406",
+      "risk_score": 90,
+      "risk_level": "CRITICAL",
+      "auto_approved": "FALSE",
+      "status": "PENDING",
+      "rejection_reason": null,
+      "approver_username": null,
+      "required_approvals": 2,
+      "created_at": "2026-10-05T21:39:12.172865Z",
+      "approved_at": null,
+      "expires_at": "2026-10-05T22:39:12.172507Z",
+      "approval_count": 0,
+      "my_decision": null
+    },
+    "approver_own_pending": {
+      "id": "43f76295-6635-44f8-b9d3-ccacf8ce11fe",
+      "user_id": "c4900751-36e7-4732-a695-137e0468a7c7",
+      "username": "sarah.sec",
+      "aws_account_id": "987654321098",
+      "aws_account_name": "Staging-EU",
+      "iam_role": "JIT-Access-PowerUser",
+      "duration_minutes": 60,
+      "justification": "PROJECT DEMO: Self-approval prevention",
+      "ticket_ref": null,
+      "risk_score": 48,
+      "risk_level": "MEDIUM",
+      "auto_approved": "FALSE",
+      "status": "PENDING",
+      "rejection_reason": null,
+      "approver_username": null,
+      "required_approvals": 1,
+      "created_at": "2026-10-05T21:39:12.568912Z",
+      "approved_at": null,
+      "expires_at": "2026-10-05T22:39:12.568590Z",
+      "approval_count": 0,
+      "my_decision": null
+    }
+  },
+  "accounts": {
+    "alex.dev": {
+      "id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "email": "alex.dev@secureaccess.io",
+      "full_name": "Ebuka Rivera",
+      "role": "REQUESTER",
+      "department": "Engineering",
+      "is_active": true,
+      "mfa_enabled": false,
+      "sessions_revocation_pending": false,
+      "must_change_password": false,
+      "created_at": "2026-10-01T14:11:39.671962Z"
+    },
+    "sarah.sec": {
+      "id": "c4900751-36e7-4732-a695-137e0468a7c7",
+      "username": "sarah.sec",
+      "email": "sarah.sec@secureaccess.io",
+      "full_name": "Amara Chen",
+      "role": "APPROVER",
+      "department": "Security Operations",
+      "is_active": true,
+      "mfa_enabled": false,
+      "sessions_revocation_pending": false,
+      "must_change_password": false,
+      "created_at": "2026-10-01T14:11:39.782344Z"
+    },
+    "admin.sys": {
+      "id": "686035a4-5ce4-4a67-ab90-865d5ac2a6a2",
+      "username": "admin.sys",
+      "email": "admin.sys@secureaccess.io",
+      "full_name": "System Administrator",
+      "role": "SECURITY_ADMIN",
+      "department": "IT Security",
+      "is_active": true,
+      "mfa_enabled": false,
+      "sessions_revocation_pending": false,
+      "must_change_password": false,
+      "created_at": "2026-10-01T14:11:39.875180Z"
+    },
+    "audit.user": {
+      "id": "88fcd0b3-a6e2-4251-96af-81247e253fba",
+      "username": "audit.user",
+      "email": "audit.user@secureaccess.io",
+      "full_name": "Audit Lead",
+      "role": "AUDITOR",
+      "department": "Internal Audit",
+      "is_active": true,
+      "mfa_enabled": false,
+      "sessions_revocation_pending": false,
+      "must_change_password": false,
+      "created_at": "2026-10-01T14:11:39.981010Z"
+    },
+    "demo.security": {
+      "id": "922d9f97-a499-4c92-ac93-1f33adb70fbd",
+      "username": "demo.security",
+      "email": "demo.security@example.com",
+      "full_name": "Project Security Demonstrator",
+      "role": "REQUESTER",
+      "department": "Project Demonstration",
+      "is_active": true,
+      "mfa_enabled": true,
+      "sessions_revocation_pending": false,
+      "must_change_password": false,
+      "created_at": "2026-10-05T21:40:53.585097Z"
+    }
+  },
+  "audit_verification": {
+    "status": "VALID",
+    "hash_algorithm": "HMAC-SHA256",
+    "verification_timestamp": "2026-10-05T22:14:31.990610+00:00",
+    "record_count": 91,
+    "archive": {
+      "status": "NOT_CONFIGURED",
+      "limitation": "Local-only audit cannot prove absence of tail truncation by a database administrator"
+    }
+  },
+  "cloudtrail": {
+    "mode": "demo",
+    "events": [],
+    "message": "AWS CloudTrail is unavailable in demo mode",
+    "truncated": false
+  },
+  "final_requests": [
+    {
+      "id": "8367b85d-073d-4f34-8189-6f15e8e5fa77",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "123456789012",
+      "aws_account_name": "Dev-Sandbox",
+      "iam_role": "JIT-Access-AdministratorAccess",
+      "duration_minutes": 60,
+      "justification": "PROJECT DEMO: One of two approvals recorded",
+      "ticket_ref": "SEC-406",
+      "risk_score": 90,
+      "risk_level": "CRITICAL",
+      "auto_approved": "FALSE",
+      "status": "PENDING",
+      "rejection_reason": null,
+      "approver_username": "sarah.sec",
+      "required_approvals": 2,
+      "created_at": "2026-10-05T21:39:12.172865Z",
+      "approved_at": null,
+      "expires_at": "2026-10-05T22:39:12.172507Z",
+      "approval_count": 1,
+      "my_decision": null
+    },
+    {
+      "id": "cb647296-225d-49ca-9a86-19cdf73536d2",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "987654321098",
+      "aws_account_name": "Staging-EU",
+      "iam_role": "JIT-Access-PowerUser",
+      "duration_minutes": 60,
+      "justification": "PROJECT DEMO: Pending staging deployment review",
+      "ticket_ref": "SEC-405",
+      "risk_score": 48,
+      "risk_level": "MEDIUM",
+      "auto_approved": "FALSE",
+      "status": "PENDING",
+      "rejection_reason": null,
+      "approver_username": null,
+      "required_approvals": 1,
+      "created_at": "2026-10-05T21:39:12.105289Z",
+      "approved_at": null,
+      "expires_at": "2026-10-05T22:39:12.104631Z",
+      "approval_count": 0,
+      "my_decision": null
+    },
+    {
+      "id": "8c9d9e19-6524-491d-8940-bc02d7d6ee99",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "123456789012",
+      "aws_account_name": "Dev-Sandbox",
+      "iam_role": "JIT-Access-ReadOnly",
+      "duration_minutes": 120,
+      "justification": "PROJECT DEMO: Automatic sandbox read-only access",
+      "ticket_ref": null,
+      "risk_score": 15,
+      "risk_level": "LOW",
+      "auto_approved": "TRUE",
+      "status": "APPROVED",
+      "rejection_reason": null,
+      "approver_username": null,
+      "required_approvals": 0,
+      "created_at": "2026-10-05T21:39:12.035919Z",
+      "approved_at": "2026-10-05T21:39:12.039949Z",
+      "expires_at": "2026-10-05T22:39:12.035564Z",
+      "approval_count": 0,
+      "my_decision": null
+    },
+    {
+      "id": "01e2e771-266d-4927-8305-cd2fffe5600c",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "555444333222",
+      "aws_account_name": "Prod-US-East-1",
+      "iam_role": "JIT-Access-AdministratorAccess",
+      "duration_minutes": 60,
+      "justification": "PROJECT DEMO: Two-person production elevation",
+      "ticket_ref": "SEC-404",
+      "risk_score": 100,
+      "risk_level": "CRITICAL",
+      "auto_approved": "FALSE",
+      "status": "APPROVED",
+      "rejection_reason": null,
+      "approver_username": "admin.sys",
+      "required_approvals": 2,
+      "created_at": "2026-10-05T21:39:11.734770Z",
+      "approved_at": "2026-10-05T21:39:11.970905Z",
+      "expires_at": "2026-10-05T22:39:11.734438Z",
+      "approval_count": 2,
+      "my_decision": null
+    },
+    {
+      "id": "b597d278-9050-4d7a-975e-4057d43186fa",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "987654321098",
+      "aws_account_name": "Staging-EU",
+      "iam_role": "JIT-Access-DBAdmin",
+      "duration_minutes": 60,
+      "justification": "PROJECT DEMO: Requester cancellation",
+      "ticket_ref": "SEC-403",
+      "risk_score": 84,
+      "risk_level": "HIGH",
+      "auto_approved": "FALSE",
+      "status": "REJECTED",
+      "rejection_reason": "Cancelled by requester",
+      "approver_username": null,
+      "required_approvals": 1,
+      "created_at": "2026-10-05T21:39:11.611733Z",
+      "approved_at": null,
+      "expires_at": "2026-10-05T22:39:11.611419Z",
+      "approval_count": 0,
+      "my_decision": null
+    },
+    {
+      "id": "a4c8cd26-756f-4d70-8c67-55265fe6c6e8",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "987654321098",
+      "aws_account_name": "Staging-EU",
+      "iam_role": "JIT-Access-DBAdmin",
+      "duration_minutes": 60,
+      "justification": "PROJECT DEMO: Rejected database maintenance",
+      "ticket_ref": "SEC-402",
+      "risk_score": 84,
+      "risk_level": "HIGH",
+      "auto_approved": "FALSE",
+      "status": "REJECTED",
+      "rejection_reason": "Maintenance window is not approved; least privilege review requires rescheduling.",
+      "approver_username": "sarah.sec",
+      "required_approvals": 1,
+      "created_at": "2026-10-05T21:39:11.484468Z",
+      "approved_at": null,
+      "expires_at": "2026-10-05T22:39:11.484190Z",
+      "approval_count": 0,
+      "my_decision": null
+    },
+    {
+      "id": "0a6c3757-175c-4423-98a3-34cb9fd73608",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "123456789012",
+      "aws_account_name": "Dev-Sandbox",
+      "iam_role": "JIT-Access-PowerUser",
+      "duration_minutes": 120,
+      "justification": "PROJECT DEMO: Approved deployment and revocation",
+      "ticket_ref": null,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "auto_approved": "FALSE",
+      "status": "REVOKED",
+      "rejection_reason": null,
+      "approver_username": "sarah.sec",
+      "required_approvals": 1,
+      "created_at": "2026-10-05T21:39:11.080053Z",
+      "approved_at": "2026-10-05T21:39:11.153222Z",
+      "expires_at": "2026-10-05T22:39:11.079757Z",
+      "approval_count": 1,
+      "my_decision": null
+    },
+    {
+      "id": "d95f64d2-2522-4a3f-9456-6734f72ae17f",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "987654321098",
+      "aws_account_name": "Staging-EU",
+      "iam_role": "JIT-Access-ReadOnly",
+      "duration_minutes": 15,
+      "justification": "PROJECT DEMO: Natural 15-minute expiry",
+      "ticket_ref": null,
+      "risk_score": 18,
+      "risk_level": "LOW",
+      "auto_approved": "TRUE",
+      "status": "EXPIRED",
+      "rejection_reason": null,
+      "approver_username": null,
+      "required_approvals": 0,
+      "created_at": "2026-10-05T21:39:10.936926Z",
+      "approved_at": "2026-10-05T21:39:10.952725Z",
+      "expires_at": "2026-10-05T22:39:10.935306Z",
+      "approval_count": 0,
+      "my_decision": null
+    }
+  ],
+  "final_sessions": [
+    {
+      "id": "8473e3c8-14d2-4331-a35f-24c1a05c5c98",
+      "request_id": "01e2e771-266d-4927-8305-cd2fffe5600c",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "555444333222",
+      "iam_role": "JIT-Access-AdministratorAccess",
+      "issued_at": "2026-10-05T21:39:11.971344Z",
+      "expires_at": "2026-10-05T22:39:11.970639Z",
+      "status": "ACTIVE",
+      "is_demo": true,
+      "revoked_at": null,
+      "revoked_by": null
+    },
+    {
+      "id": "712df742-9d9b-4d5c-86a8-302909a388b6",
+      "request_id": "8c9d9e19-6524-491d-8940-bc02d7d6ee99",
+      "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "aws_account_id": "123456789012",
+      "iam_role": "JIT-Access-ReadOnly",
+      "issued_at": "2026-10-05T21:39:12.041696Z",
+      "expires_at": "2026-10-05T23:39:12.039539Z",
+      "status": "ACTIVE",
+      "is_demo": true,
+      "revoked_at": null,
+      "revoked_by": null
+    }
+  ],
+  "roles": [
+    {
+      "role_name": "JIT-Access-ReadOnly",
+      "description": "Read-only inspection",
+      "allowed_environments": [
+        "development",
+        "production",
+        "security",
+        "staging"
+      ],
+      "max_duration_minutes": 480,
+      "default_risk": "LOW",
+      "base_risk": 15
+    },
+    {
+      "role_name": "JIT-Access-PowerUser",
+      "description": "Engineering deployments, without IAM or role chaining",
+      "allowed_environments": [
+        "development",
+        "staging"
+      ],
+      "max_duration_minutes": 240,
+      "default_risk": "MEDIUM",
+      "base_risk": 40
+    },
+    {
+      "role_name": "JIT-Access-DBAdmin",
+      "description": "Database maintenance",
+      "allowed_environments": [
+        "staging",
+        "production"
+      ],
+      "max_duration_minutes": 120,
+      "default_risk": "HIGH",
+      "base_risk": 70
+    },
+    {
+      "role_name": "JIT-Access-AdministratorAccess",
+      "description": "Elevated operations within the JIT permission boundary; two distinct approvals",
+      "allowed_environments": [
+        "development",
+        "staging",
+        "production",
+        "security"
+      ],
+      "max_duration_minutes": 60,
+      "default_risk": "CRITICAL",
+      "base_risk": 90
+    }
+  ],
+  "accounts_catalog": [
+    {
+      "id": "123456789012",
+      "name": "Dev-Sandbox",
+      "environment": "development"
+    },
+    {
+      "id": "987654321098",
+      "name": "Staging-EU",
+      "environment": "staging"
+    },
+    {
+      "id": "555444333222",
+      "name": "Prod-US-East-1",
+      "environment": "production"
+    },
+    {
+      "id": "111222333444",
+      "name": "Security-Audit",
+      "environment": "security"
+    }
+  ],
+  "mfa_verified": {
+    "enrollment": true,
+    "totp_login": true,
+    "password_only_denied": true,
+    "recovery_login": true,
+    "reused_recovery_denied": true
+  },
+  "security_demo_account": {
+    "username": "demo.security",
+    "password": "Demo-project-123!",
+    "role": "REQUESTER",
+    "mfa_enabled": true,
+    "access_grants": [],
+    "private_authenticator_file": "/tmp/secureaccess-demo-mfa-private.json"
+  },
+  "natural_expiration_verified": {
+    "id": "cdea95c8-3053-404b-919c-ed2dcdf67b46",
+    "request_id": "d95f64d2-2522-4a3f-9456-6734f72ae17f",
+    "user_id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+    "username": "alex.dev",
+    "aws_account_id": "987654321098",
+    "iam_role": "JIT-Access-ReadOnly",
+    "issued_at": "2026-10-05T21:39:10.954253Z",
+    "expires_at": "2026-10-05T21:54:10.947803Z",
+    "status": "EXPIRED",
+    "is_demo": true,
+    "revoked_at": null,
+    "revoked_by": null
+  },
+  "final_users": [
+    {
+      "id": "922d9f97-a499-4c92-ac93-1f33adb70fbd",
+      "username": "demo.security",
+      "email": "demo.security@example.com",
+      "full_name": "Project Security Demonstrator",
+      "role": "REQUESTER",
+      "department": "Project Demonstration",
+      "is_active": true,
+      "mfa_enabled": true,
+      "sessions_revocation_pending": false,
+      "must_change_password": false,
+      "created_at": "2026-10-05T21:40:53.585097Z"
+    },
+    {
+      "id": "d95f2020-296b-49a2-88cd-c3b7b4574fa2",
+      "username": "Chika",
+      "email": "Chika@sys.com",
+      "full_name": "Chika  Joseph",
+      "role": "APPROVER",
+      "department": "Human resources",
+      "is_active": true,
+      "mfa_enabled": false,
+      "sessions_revocation_pending": false,
+      "must_change_password": false,
+      "created_at": "2026-10-02T16:54:40.186158Z"
+    },
+    {
+      "id": "88fcd0b3-a6e2-4251-96af-81247e253fba",
+      "username": "audit.user",
+      "email": "audit.user@secureaccess.io",
+      "full_name": "Audit Lead",
+      "role": "AUDITOR",
+      "department": "Internal Audit",
+      "is_active": true,
+      "mfa_enabled": false,
+      "sessions_revocation_pending": false,
+      "must_change_password": false,
+      "created_at": "2026-10-01T14:11:39.981010Z"
+    },
+    {
+      "id": "686035a4-5ce4-4a67-ab90-865d5ac2a6a2",
+      "username": "admin.sys",
+      "email": "admin.sys@secureaccess.io",
+      "full_name": "System Administrator",
+      "role": "SECURITY_ADMIN",
+      "department": "IT Security",
+      "is_active": true,
+      "mfa_enabled": false,
+      "sessions_revocation_pending": false,
+      "must_change_password": false,
+      "created_at": "2026-10-01T14:11:39.875180Z"
+    },
+    {
+      "id": "c4900751-36e7-4732-a695-137e0468a7c7",
+      "username": "sarah.sec",
+      "email": "sarah.sec@secureaccess.io",
+      "full_name": "Amara Chen",
+      "role": "APPROVER",
+      "department": "Security Operations",
+      "is_active": true,
+      "mfa_enabled": false,
+      "sessions_revocation_pending": false,
+      "must_change_password": false,
+      "created_at": "2026-10-01T14:11:39.782344Z"
+    },
+    {
+      "id": "7afc67de-b28d-4213-ac10-bc73aab69ecf",
+      "username": "alex.dev",
+      "email": "alex.dev@secureaccess.io",
+      "full_name": "Ebuka Rivera",
+      "role": "REQUESTER",
+      "department": "Engineering",
+      "is_active": true,
+      "mfa_enabled": false,
+      "sessions_revocation_pending": false,
+      "must_change_password": false,
+      "created_at": "2026-10-01T14:11:39.671962Z"
+    }
+  ],
+  "system_status": {
+    "demo_mode": true,
+    "aws_region": "us-east-1",
+    "policy_engine": "ACTIVE",
+    "audit_chain": "VALID",
+    "audit_records": 91,
+    "archive_configured": false,
+    "archive_pending": null,
+    "cloudtrail": "DISABLED_DEMO",
+    "worker": "HEALTHY",
+    "mfa_required": false,
+    "sso_enabled": false,
+    "server_time": "2026-10-05T22:14:32.004225+00:00",
+    "local_audit_retention": "APPEND_ONLY_NO_AUTOMATIC_DELETION",
+    "active_sessions_count": 2,
+    "requests_count": 9,
+    "pending_approvals_count": 3,
+    "email_configured": false,
+    "ticket_verification_required": false
+  },
+  "health_checks": [
+    {
+      "url": "http://127.0.0.1:8000/api/health",
+      "status": 200,
+      "body": {
+        "status": "ok",
+        "demo_mode": true,
+        "sso_enabled": false
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/health",
+      "status": 200,
+      "body": {
+        "status": "ok",
+        "demo_mode": true,
+        "sso_enabled": false
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/ready",
+      "status": 200,
+      "body": {
+        "status": "ready"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/ready",
+      "status": 200,
+      "body": {
+        "status": "ready"
+      }
+    }
+  ],
+  "preservation_verified_against_backup": [
+    {
+      "username": "alex.dev",
+      "changed_columns": [
+        "full_name"
+      ],
+      "password_hash_unchanged": true,
+      "mfa_unchanged": true,
+      "role_and_grants_unchanged": true
+    },
+    {
+      "username": "sarah.sec",
+      "changed_columns": [
+        "full_name"
+      ],
+      "password_hash_unchanged": true,
+      "mfa_unchanged": true,
+      "role_and_grants_unchanged": true
+    },
+    {
+      "username": "admin.sys",
+      "changed_columns": [],
+      "password_hash_unchanged": true,
+      "mfa_unchanged": true,
+      "role_and_grants_unchanged": true
+    },
+    {
+      "username": "audit.user",
+      "changed_columns": [],
+      "password_hash_unchanged": true,
+      "mfa_unchanged": true,
+      "role_and_grants_unchanged": true
+    },
+    {
+      "username": "Chika",
+      "changed_columns": [],
+      "password_hash_unchanged": true,
+      "mfa_unchanged": true,
+      "role_and_grants_unchanged": true
+    }
+  ],
+  "natural_expiration_credentials_cleared": true,
+  "database_counts": {
+    "users": 6,
+    "access_requests": 9,
+    "approvals": 5,
+    "active_sessions": 4,
+    "notifications": 25,
+    "audit_logs": 91,
+    "entitlements": 36
+  },
+  "events": [
+    {
+      "event_type": "ACCESS_APPROVED",
+      "count": 4
+    },
+    {
+      "event_type": "ACCESS_REJECTED",
+      "count": 1
+    },
+    {
+      "event_type": "ACCESS_REQUESTED",
+      "count": 9
+    },
+    {
+      "event_type": "ACCOUNT_RECOVERED",
+      "count": 1
+    },
+    {
+      "event_type": "AUTHORIZATION_DENIED",
+      "count": 8
+    },
+    {
+      "event_type": "CREDENTIALS_RETRIEVED",
+      "count": 2
+    },
+    {
+      "event_type": "DEMO_GRANTS_SEEDED",
+      "count": 3
+    },
+    {
+      "event_type": "DEMO_USER_SEEDED",
+      "count": 4
+    },
+    {
+      "event_type": "ENTITLEMENT_GRANTED",
+      "count": 1
+    },
+    {
+      "event_type": "ENTITLEMENT_REVOKED",
+      "count": 1
+    },
+    {
+      "event_type": "LOGIN_FAILED",
+      "count": 5
+    },
+    {
+      "event_type": "LOGIN_SUCCEEDED",
+      "count": 26
+    },
+    {
+      "event_type": "LOGOUT",
+      "count": 7
+    },
+    {
+      "event_type": "MFA_ENABLED",
+      "count": 1
+    },
+    {
+      "event_type": "MFA_ENROLLMENT_STARTED",
+      "count": 1
+    },
+    {
+      "event_type": "PASSWORD_CHANGED",
+      "count": 1
+    },
+    {
+      "event_type": "POLICY_UPDATED",
+      "count": 1
+    },
+    {
+      "event_type": "REQUEST_CANCELLED",
+      "count": 1
+    },
+    {
+      "event_type": "SESSION_CREATED",
+      "count": 4
+    },
+    {
+      "event_type": "SESSION_EXPIRED",
+      "count": 1
+    },
+    {
+      "event_type": "SESSION_REVOKED",
+      "count": 1
+    },
+    {
+      "event_type": "USER_CREATED",
+      "count": 2
+    },
+    {
+      "event_type": "USER_UPDATED",
+      "count": 6
+    }
+  ],
+  "tests": {
+    "backend_default": {
+      "passed": 60,
+      "failed": 1,
+      "skipped": 3,
+      "failure": "test_readiness_fails_when_worker_stale: active embedded test worker refreshes stale heartbeat"
+    },
+    "backend_test_worker_external": {
+      "passed": 61,
+      "failed": 0,
+      "skipped": 3,
+      "command": "WORKER_MODE=external .venv/bin/python -m pytest -q",
+      "live_worker_mode_unchanged": "embedded"
+    },
+    "browser_existing_suite": {
+      "passed": 7,
+      "failed": 0,
+      "command": "PLAYWRIGHT_WS_ENDPOINT=ws://127.0.0.1:3333/ npm test",
+      "browser": "Documented Docker Playwright fallback; host libnspr4.so unavailable"
+    },
+    "frontend_build": "passed"
+  },
+  "live_browser": {
+    "checks": [
+      {
+        "username": "alex.dev",
+        "role": "REQUESTER",
+        "dashboard": true,
+        "navigation": true,
+        "ui_authorization": true,
+        "names": "not displayed in this view"
+      },
+      {
+        "username": "sarah.sec",
+        "role": "APPROVER",
+        "dashboard": true,
+        "navigation": true,
+        "ui_authorization": true,
+        "names": "verified"
+      },
+      {
+        "username": "admin.sys",
+        "role": "SECURITY_ADMIN",
+        "dashboard": true,
+        "navigation": true,
+        "ui_authorization": true,
+        "names": "verified"
+      },
+      {
+        "username": "audit.user",
+        "role": "AUDITOR",
+        "dashboard": true,
+        "navigation": true,
+        "ui_authorization": true,
+        "names": "verified"
+      },
+      {
+        "username": "demo.security",
+        "totp_login": true,
+        "mfa_security_ui": true,
+        "no_grants": true
+      }
+    ],
+    "artifacts": "/home/valentino/projects/secureaccess-cloud/docs/demo-screenshots"
+  },
+  "completed_at": "2026-10-05T22:14:32.076079+00:00",
+  "running_services": [
+    {
+      "service": "Vite development frontend",
+      "url": "http://127.0.0.1:3000/",
+      "command": "npm run dev",
+      "cwd": "frontend"
+    },
+    {
+      "service": "Existing FastAPI/Uvicorn backend",
+      "url": "http://127.0.0.1:8000",
+      "command": ".venv/bin/python -m uvicorn app.main:app --reload --port 8000",
+      "cwd": "backend"
+    },
+    {
+      "service": "Embedded backend worker",
+      "status": "HEALTHY"
+    }
+  ]
+}

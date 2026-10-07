@@ -1,0 +1,22 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::BROKER_ACCOUNT_ID:role/SecureAccessOrchestratorRole"
+      },
+      "Action": [
+        "sts:AssumeRole",
+        "sts:TagSession",
+        "sts:SetSourceIdentity"
+      ],
+      "Condition": {
+        "StringEquals": {
+          "sts:ExternalId": "REPLACE_WITH_RANDOM_EXTERNAL_ID",
+          "aws:RequestTag/ManagedBy": "SecureAccessCloud"
+        }
+      }
+    }
+  ]
+}
